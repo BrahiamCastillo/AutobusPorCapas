@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -37,7 +37,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.bunifuElipsefrmFace = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuDragControlPanel = new Bunifu.Framework.UI.BunifuDragControl(this.components);
-            this.tablaChoferCompleto = new System.Windows.Forms.DataGridView();
             this.btnAsignarRuta = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnAsignarAutobus = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnAgregarRuta = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -53,11 +52,12 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
+            this.tablaChoferCompleto = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tablaChoferCompleto)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tablaChoferCompleto)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -124,34 +124,6 @@
             this.bunifuDragControlPanel.Horizontal = true;
             this.bunifuDragControlPanel.TargetControl = this.panel1;
             this.bunifuDragControlPanel.Vertical = true;
-            // 
-            // tablaChoferCompleto
-            // 
-            this.tablaChoferCompleto.AllowUserToAddRows = false;
-            this.tablaChoferCompleto.AllowUserToDeleteRows = false;
-            this.tablaChoferCompleto.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.tablaChoferCompleto.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            this.tablaChoferCompleto.BackgroundColor = System.Drawing.Color.White;
-            this.tablaChoferCompleto.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tablaChoferCompleto.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.ScrollBar;
-            dataGridViewCellStyle12.Padding = new System.Windows.Forms.Padding(5);
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.tablaChoferCompleto.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle12;
-            this.tablaChoferCompleto.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.tablaChoferCompleto.ColumnHeadersVisible = false;
-            this.tablaChoferCompleto.Location = new System.Drawing.Point(6, 220);
-            this.tablaChoferCompleto.Name = "tablaChoferCompleto";
-            this.tablaChoferCompleto.ReadOnly = true;
-            this.tablaChoferCompleto.RowHeadersVisible = false;
-            this.tablaChoferCompleto.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.tablaChoferCompleto.Size = new System.Drawing.Size(625, 232);
-            this.tablaChoferCompleto.TabIndex = 11;
             // 
             // btnAsignarRuta
             // 
@@ -460,11 +432,40 @@
             this.label11.TabIndex = 32;
             this.label11.Text = "Ruta";
             // 
+            // tablaChoferCompleto
+            // 
+            this.tablaChoferCompleto.AllowUserToAddRows = false;
+            this.tablaChoferCompleto.AllowUserToDeleteRows = false;
+            this.tablaChoferCompleto.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.tablaChoferCompleto.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.tablaChoferCompleto.BackgroundColor = System.Drawing.Color.White;
+            this.tablaChoferCompleto.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tablaChoferCompleto.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(5);
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.tablaChoferCompleto.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.tablaChoferCompleto.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tablaChoferCompleto.ColumnHeadersVisible = false;
+            this.tablaChoferCompleto.Location = new System.Drawing.Point(6, 205);
+            this.tablaChoferCompleto.Name = "tablaChoferCompleto";
+            this.tablaChoferCompleto.ReadOnly = true;
+            this.tablaChoferCompleto.RowHeadersVisible = false;
+            this.tablaChoferCompleto.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.tablaChoferCompleto.Size = new System.Drawing.Size(625, 229);
+            this.tablaChoferCompleto.TabIndex = 33;
+            // 
             // frmFace
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 460);
+            this.Controls.Add(this.tablaChoferCompleto);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label3);
@@ -473,7 +474,6 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btnRefrescar);
-            this.Controls.Add(this.tablaChoferCompleto);
             this.Controls.Add(this.btnAsignarRuta);
             this.Controls.Add(this.btnAsignarAutobus);
             this.Controls.Add(this.btnAgregarRuta);
@@ -491,9 +491,9 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tablaChoferCompleto)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tablaChoferCompleto)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -514,7 +514,6 @@
         private Bunifu.Framework.UI.BunifuFlatButton btnAsignarAutobus;
         private Bunifu.Framework.UI.BunifuFlatButton btnAgregarRuta;
         private Bunifu.Framework.UI.BunifuFlatButton btnAgregarAutobus;
-        private System.Windows.Forms.DataGridView tablaChoferCompleto;
         private Bunifu.Framework.UI.BunifuFlatButton btnRefrescar;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
@@ -523,6 +522,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.DataGridView tablaChoferCompleto;
     }
 }
 
